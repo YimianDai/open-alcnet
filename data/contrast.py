@@ -20,7 +20,7 @@ class IceContrast(SegmentationDataset):
     NUM_CLASS = 1
 
     def __init__(self, base_dir='DENTIST', root=os.path.join('~', 'Nutstore Files', 'Dataset'),
-                 split='train', mode=None, transform=None, **kwargs):
+                 split='train', mode=None, transform=None, include_name=False, **kwargs):
         super(IceContrast, self).__init__(root, split, mode, transform, **kwargs)
 
         # if platform.system() == "Linux":
@@ -28,6 +28,7 @@ class IceContrast(SegmentationDataset):
         # print("colab:", colab)
         # if colab:
         #     root = '/content/gdrive/My Drive/Colab Notebooks/datasets'
+        self.include_name = include_name
         self.base_dir = base_dir
         self._root = os.path.expanduser(os.path.join(root, base_dir))
         self._transform = transform
@@ -84,7 +85,10 @@ class IceContrast(SegmentationDataset):
             img = self.transform(img)
         mask = nd.expand_dims(mask, axis=0).astype('float32') / 255.0
 
-        return img, mask#, img_id[-1]
+        if self.include_name:
+            return img, mask, img_id[-1]
+        else:
+            return img, mask
 
     def __len__(self):
         return len(self._items)
@@ -140,7 +144,4 @@ class IceContrast(SegmentationDataset):
         # final transform
         img, mask = self._img_transform(img), self._mask_transform(mask)
         return img, mask
-
-
-
 
