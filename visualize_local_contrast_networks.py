@@ -223,6 +223,8 @@ class Trainer(object):
         start = timeit.default_timer()
         for img, mask, img_id in self.valset:
             exp_img = img.expand_dims(axis=0)
+            if not (len(mx.test_utils.list_gpus()) == 0):
+                exp_img = exp_img.copyto(mx.gpu())
             # pred = self.net(exp_img).squeeze().asnumpy() > 0
             pred = self.net(exp_img)
             plt.imsave(save_path + img_id + '.png', pred)
