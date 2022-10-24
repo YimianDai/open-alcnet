@@ -227,6 +227,7 @@ class Trainer(object):
                 exp_img = exp_img.copyto(mx.gpu())
             # pred = self.net(exp_img).squeeze().asnumpy() > 0
             pred = self.net(exp_img)
+            pred = pred.squeeze().asnumpy() > 0 # from NDArray to a boolean numpy array
             plt.imsave(save_path + img_id + '.png', pred)
             # print(pred.shape)
 
