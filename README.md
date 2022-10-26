@@ -1,6 +1,6 @@
 
 # Included bug fixed of the ALCNEet
-Fix issued reported in the orginal scripts.
+Fix reported issues in the orginal scripts.
 
 More features will come later after further testing. Including improved logging and file management, draw bounding box of the grond truth target in prediction images using the .xml files in the dataset.
 
