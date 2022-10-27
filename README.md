@@ -20,7 +20,7 @@ This branch contains additional features and improvements:
 >* Draw the ground truth boudning box in the prediction images for easier comparsion, this feature requires the labelling (.xml) file in the dataset.
 
 ***
-If you are unfamiliar with how to setup an environment for MXNet, you can check out the [tutorial](Tutorial-for-reproducing-the-result-of-the-ALCNet)
+If you are unfamiliar with how to setup an environment for MXNet or how the run the scripts, you can check out the [tutorial](Tutorial-for-reproducing-the-result-of-the-ALCNet)
 ***
 # Description from the orginal author
 
