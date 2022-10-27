@@ -10,12 +10,14 @@ This branch contains additional features and improvements:
 3. Added argument to pass the root path of the dataset if you are using a dataset outside the ALCNet folder.
 4. Improve logging messages
 5. Improve File management:
-           Relocate the training log file and parameter file to \params folder.
-           Relocate the log file and prediction result to \results foler, results from each parameter file will have their own subfoler.
+
+>* Relocate the training log file and parameter file to \params folder. 
+>* Relocate the log file and prediction result to \results foler, results from each parameter file will have their own subfoler.
 
 6. Addtional features in the visualize_local_contrast_networks.py scrpit:
-           Record the inference time.
-           Draw the ground truth boudning box in the prediction images for easier comparsion, this feature requires the labelling (.xml) file in the dataset.
+
+>* Record the inference time.
+>* Draw the ground truth boudning box in the prediction images for easier comparsion, this feature requires the labelling (.xml) file in the dataset.
 
 ***
 # Description from the orginal author
