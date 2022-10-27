@@ -1,11 +1,12 @@
 
-*Master branch*
+**Master branch**
+
 Fix reported issues in the orginal scripts.
 
-*Dev branch*
+**Dev branch**
 
 This branch contains additional features and improvements:
-1. The SIRST and IRSTD-1k datasets added to the folder.
+1. The [SIRST](https://github.com/YimianDai/sirst) and [IRSTD-1k](https://github.com/RuiZhang97/ISNet) datasets added to the folder.
 2. Added argument to pass the path of the ALCNet folder in Colab.
 3. Added argument to pass the root path of the dataset if you are using a dataset outside the ALCNet folder.
 4. Improve logging messages
@@ -20,7 +21,7 @@ This branch contains additional features and improvements:
 >* Draw the ground truth boudning box in the prediction images for easier comparsion, this feature requires the labelling (.xml) file in the dataset.
 
 ***
-If you are unfamiliar with how to setup an environment for MXNet or how the run the scripts, you can check out the [tutorial](https://github.com/Victor4869/open-alcnet/wiki) in the Wiki.
+If you are unfamiliar with how to setup an environment for MXNet or how the run the scripts, you can check out the tutorial in the [Wiki](https://github.com/Victor4869/open-alcnet/wiki).
 ***
 # Description from the orginal author
 
