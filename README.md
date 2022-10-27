@@ -1,9 +1,20 @@
 
-# Included bug fixed of the ALCNEet
+# master branch
 Fix reported issues in the orginal scripts.
 
-More features will come later after further testing. Including improved logging and file management, draw bounding box of the grond truth target in prediction images using the .xml files in the dataset.
+# dev branch
 
+This branch contains additional features and improvements:
+1. The SIRST and IRSTD-1k datasets added to the folder.
+2. Added argument to pass the path of the ALCNet folder in Colab.
+3. Added argument to pass the root path of the dataset if you are using a dataset outside the ALCNet folder.
+4. Improve logging messages
+5. Improve File management:
+           Relocate the training log file and parameter file to \params folder
+           Relocate the log file and prediction result to \results foler, results from each parameter file will have their own subfoler.
+6. Addtional features in the visualize_local_contrast_networks.py scrpit:
+           Record the inference time
+           Draw the ground truth boudning box in the prediction images for easier comparsion, this feature requires the labelling (.xml) file in the dataset.
 
 ***
 # Description from the orginal author
