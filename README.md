@@ -1,8 +1,8 @@
 
-# Master branch
+*Master branch*
 Fix reported issues in the orginal scripts.
 
-# Dev branch
+*Dev branch*
 
 This branch contains additional features and improvements:
 1. The SIRST and IRSTD-1k datasets added to the folder.
@@ -19,6 +19,8 @@ This branch contains additional features and improvements:
 >* Record the inference time.
 >* Draw the ground truth boudning box in the prediction images for easier comparsion, this feature requires the labelling (.xml) file in the dataset.
 
+***
+If you are unfamiliar with how to setup an environment for MXNet, you can check out the [tutorial](Tutorial-for-reproducing-the-result-of-the-ALCNet)
 ***
 # Description from the orginal author
 
