@@ -3,7 +3,7 @@
 
 Fix reported issues in the orginal scripts.
 
-**Dev branch**
+**[Dev branch](https://github.com/Victor4869/open-alcnet/tree/dev)**
 
 This branch contains additional features and improvements:
 1. The [SIRST](https://github.com/YimianDai/sirst) and [IRSTD-1k](https://github.com/RuiZhang97/ISNet) datasets added to the folder.
@@ -23,7 +23,7 @@ This branch contains additional features and improvements:
 ***
 If you are unfamiliar with how to setup an environment for MXNet or how to run the scripts, you can check out the tutorial in the [Wiki](https://github.com/Victor4869/open-alcnet/wiki).
 ***
-# Description from the orginal author
+# open-alcnet
 
 codes and trained models for the ALCNet
 
