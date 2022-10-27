@@ -1,8 +1,8 @@
 
-# master branch
+# Master branch
 Fix reported issues in the orginal scripts.
 
-# dev branch
+# Dev branch
 
 This branch contains additional features and improvements:
 1. The SIRST and IRSTD-1k datasets added to the folder.
