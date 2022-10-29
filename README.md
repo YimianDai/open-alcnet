@@ -5,20 +5,7 @@ Fix reported issues in the orginal scripts.
 
 **[Dev branch](https://github.com/Victor4869/open-alcnet/tree/dev)**
 
-This branch contains additional features and improvements:
-1. The [SIRST](https://github.com/YimianDai/sirst) and [IRSTD-1k](https://github.com/RuiZhang97/ISNet) datasets added to the folder.
-2. Added argument to pass the path of the ALCNet folder in Colab.
-3. Added argument to pass the root path of the dataset if you are using a dataset outside the ALCNet folder.
-4. Improve logging messages
-5. Improve File management:
-
->* Relocate the training log file and parameter file to \params folder. 
->* Relocate the log file and prediction result to \results foler, results from each parameter file will have their own subfoler.
-
-6. Addtional features in the visualize_local_contrast_networks.py scrpit:
-
->* Record the inference time.
->* Draw the ground truth boudning box in the prediction images for easier comparsion, this feature requires the labelling (.xml) file in the dataset.
+This branch contains additional features and improvements, checkout the description for this branch for more detail.
 
 ***
 If you are unfamiliar with how to setup an environment for MXNet or how to run the scripts, you can check out the tutorial in the [Wiki](https://github.com/Victor4869/open-alcnet/wiki).
