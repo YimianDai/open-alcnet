@@ -5,7 +5,7 @@ Fix reported issues in the orginal scripts.
 
 **[Dev branch](https://github.com/Victor4869/open-alcnet/tree/dev)**
 
-This branch contains additional features and improvements, check the description for this branch for more detail.
+This branch contains additional features and improvements, check the [description](https://github.com/Victor4869/open-alcnet/tree/dev) for this branch for more detail.
 
 ***
 If you are unfamiliar with how to setup an environment for MXNet or how to run the scripts, you can find the tutorial in the [Wiki](https://github.com/Victor4869/open-alcnet/wiki).
