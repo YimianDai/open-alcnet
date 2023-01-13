@@ -179,6 +179,8 @@ class Trainer(object):
         self.eval_data = gluon.data.DataLoader(valset, args.test_batch_size,
             last_batch='rollover', num_workers=args.workers)
 
+        model = '' #Fix scope issue
+
         # net_choice = 'PCMNet'  # ResNetFPN, PCMNet, MPCMNet, LayerwiseMPCMNet
         net_choice = self.args.net_choice
         print("net_choice: ", net_choice)

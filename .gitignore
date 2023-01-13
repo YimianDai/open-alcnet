@@ -8,3 +8,4 @@
 #*.pdf
 *.params
 *.states
+.tmp.driveupload
